@@ -64,11 +64,6 @@ cambiarColorBtn.addEventListener('click', () => {
 });
 
 cambiarTextoBtn.addEventListener('click', () => {
-    const mainHeading = document.querySelector('h2');
-    const mensajes = ["Bienvenidos a nuestra web", "Explora nuestro contenido", "¡Disfruta tu visita!"];
-    mainHeading.textContent = mensajes[Math.floor(Math.random() * mensajes.length)];
-    
-    
     fuenteActual = (fuenteActual + 1) % fuentes.length; 
     document.body.style.fontFamily = fuentes[fuenteActual];
 
