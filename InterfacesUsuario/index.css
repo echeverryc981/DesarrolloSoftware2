@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #E3F2FD; 
+    text-align: center;
 }
 
 .navbar {
@@ -60,3 +61,4 @@ button {
 main {
     text-align: center; 
 }
+
