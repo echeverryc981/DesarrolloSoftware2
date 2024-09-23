@@ -26,7 +26,9 @@ const fuentes = [
     "'Georgia', serif",
     "'Lobster', cursive",
     "'Righteous', sans-serif",
-    "'Zilla Slab', serif"
+    "'Zilla Slab', serif",
+    "'Fredericka the Great', cursive",
+    "'Creepster', cursive"
 ];
 
 const imagenesFondo = [
