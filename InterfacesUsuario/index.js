@@ -61,14 +61,14 @@ let fuenteActual = 0;
 cambiarColorBtn.addEventListener('click', () => {
     colorActual = (colorActual + 1) % paletaColores.length; 
     cambiarColores(paletaColores[colorActual]);
+
+    const imagenActual = imagenesFondo[Math.floor(Math.random() * imagenesFondo.length)];
+    document.querySelector('.imagen').src = imagenActual;
 });
 
 cambiarTextoBtn.addEventListener('click', () => {
     fuenteActual = (fuenteActual + 1) % fuentes.length; 
     document.body.style.fontFamily = fuentes[fuenteActual];
-
-    const imagenActual = imagenesFondo[Math.floor(Math.random() * imagenesFondo.length)];
-    document.querySelector('.imagen').src = imagenActual;
 });
 
 function cambiarColores(colores) {
