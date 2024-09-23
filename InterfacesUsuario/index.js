@@ -1,4 +1,6 @@
-/*NELSON CAMILO ECHEVERRI VELEZ */
+/*NELSON CAMILO ECHEVERRI VELEZ 
+https://github.com/echeverryc981/DesarrolloSoftware2/tree/CamiloEcheverri
+*/
 const cambiarColorBtn = document.getElementById('cambiarColorBtn');
 const cambiarTextoBtn = document.getElementById('cambiarTextoBtn');
 
