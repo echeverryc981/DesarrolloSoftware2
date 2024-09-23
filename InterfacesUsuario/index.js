@@ -63,7 +63,10 @@ cambiarColorBtn.addEventListener('click', () => {
     cambiarColores(paletaColores[colorActual]);
 
     const imagenActual = imagenesFondo[Math.floor(Math.random() * imagenesFondo.length)];
-    document.querySelector('.imagen').src = imagenActual;
+    document.body.style.backgroundImage = `url(${imagenActual})`; 
+    document.body.style.backgroundSize = 'cover'; 
+    document.body.style.backgroundPosition = 'center'; 
+
 });
 
 cambiarTextoBtn.addEventListener('click', () => {
