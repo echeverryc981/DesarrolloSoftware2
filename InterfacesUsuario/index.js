@@ -50,9 +50,9 @@ const fuentes = [
 ];
 
 const imagenesFondo = [
-    'image/guitara.png',
-    'image/montaña.jpg',
-    'image/oveja.jpg'
+    'image/tbee.jpg',
+    'image/felix.jpg',
+    'image/jplenio.jpg'
 ];
 
 let colorActual = 0; 
