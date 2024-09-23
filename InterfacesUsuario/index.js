@@ -48,6 +48,9 @@ cambiarTextoBtn.addEventListener('click', () => {
     
     fuenteActual = (fuenteActual + 1) % fuentes.length; 
     document.body.style.fontFamily = fuentes[fuenteActual];
+
+    const imagenActual = imagenesFondo[Math.floor(Math.random() * imagenesFondo.length)];
+    document.querySelector('.imagen').src = imagenActual;
 });
 
 function cambiarColores(colores) {
