@@ -1,5 +1,5 @@
 const cambiarColorBtn = document.getElementById('cambiarColorBtn');
-
+const cambiarTextoBtn = document.getElementById('cambiarTextoBtn');
 
 const paletaColores = [
     {
@@ -20,17 +20,29 @@ const paletaColores = [
     }
 ];
 
-
+const fuentes = [
+    "'Arial', sans-serif",
+    "'Courier New', monospace",
+    "'Georgia', serif"
+];
 
 let colorActual = 0; 
-
+let fuenteActual = 0;
 
 cambiarColorBtn.addEventListener('click', () => {
     colorActual = (colorActual + 1) % paletaColores.length; 
     cambiarColores(paletaColores[colorActual]);
 });
 
-
+cambiarTextoBtn.addEventListener('click', () => {
+    const mainHeading = document.querySelector('h2');
+    const mensajes = ["Bienvenidos a nuestra web", "Explora nuestro contenido", "¡Disfruta tu visita!"];
+    mainHeading.textContent = mensajes[Math.floor(Math.random() * mensajes.length)];
+    
+    
+    fuenteActual = (fuenteActual + 1) % fuentes.length; 
+    document.body.style.fontFamily = fuentes[fuenteActual];
+});
 
 function cambiarColores(colores) {
     document.body.style.backgroundColor = colores.fondo;
