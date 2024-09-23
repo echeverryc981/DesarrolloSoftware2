@@ -127,7 +127,9 @@ main {
     font-size: 1.1em; 
     font-weight: bold; 
     margin: 10px 0; 
+    text-align: center; 
 }
+
 
 .product-btn {
     padding: 10px 15px; 
