@@ -23,7 +23,10 @@ const paletaColores = [
 const fuentes = [
     "'Arial', sans-serif",
     "'Courier New', monospace",
-    "'Georgia', serif"
+    "'Georgia', serif",
+    "'Lobster', cursive",
+    "'Righteous', sans-serif",
+    "'Zilla Slab', serif"
 ];
 
 const imagenesFondo = [
