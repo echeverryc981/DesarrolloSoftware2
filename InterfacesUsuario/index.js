@@ -26,6 +26,12 @@ const fuentes = [
     "'Georgia', serif"
 ];
 
+const imagenesFondo = [
+    'image/guitara.png',
+    'image/montaña.jpg',
+    'image/oveja.jpg'
+];
+
 let colorActual = 0; 
 let fuenteActual = 0;
 
