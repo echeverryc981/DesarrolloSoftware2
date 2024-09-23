@@ -17,6 +17,24 @@ const paletaColores = [
         navbar: '#4CAF50',
         texto: '#1B5E20', 
         boton: '#C8E6C9'  
+    },
+    {
+        fondo: '#E0F7FA', 
+        navbar: '#00838F', 
+        texto: '#004D40',  
+        boton: '#B2EBF2'  
+    },
+    {
+        fondo: '#FFFCF9', 
+        navbar: '#FF5722', 
+        texto: '#E91E63',  
+        boton: '#FFC107'  
+    },
+    {
+        fondo: '#F3E5F5', 
+        navbar: '#7B1FA2', 
+        texto: '#4A148C',  
+        boton: '#E1BEE7'  
     }
 ];
 
